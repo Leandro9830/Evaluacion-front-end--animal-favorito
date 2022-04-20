@@ -1,0 +1,301 @@
+html{
+    font-family: 'Nanum Gothic', sans-serif;}
+
+body {
+    margin: 0;
+    background-color: #efefef ;
+}
+
+header{
+    background-color: lightslategray;
+    color: antiquewhite;
+    padding: 4rem;
+    
+}
+
+header h1{
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+nav{
+    
+    background-color: gray;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 auto;
+    
+
+}
+
+nav a{
+    
+    transition: box-shadow 0.2s linear;
+     margin: 2rem;
+     padding: 1rem;
+     color: antiquewhite;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+nav a:hover{
+    box-shadow: 0 0.1px 15px rgb(80, 80, 80)
+    
+}
+body main{
+    height: (100vh - 4rem - 80px);
+    
+}
+main h2{
+    text-align: center;
+    padding: 1rem;
+}
+
+section{
+    background-color: white;
+    
+    width: 1200px;
+    height: 770px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+
+
+
+.izquierda{
+    padding: 1rem;
+     
+}
+
+.parrafo1{
+    text-align: center;
+    font-size: 1.8rem;
+    width: 800px;
+    position: relative;
+    bottom: 300px;
+    left: 350px;
+}
+
+.derecha{
+    padding: 1rem;
+    float: right;
+    position: relative;
+    bottom: 150px;
+     }
+
+.parrafo2{
+    text-align: center;
+    font-size: 1.8rem;
+    width: 800px;
+    position: relative;
+    bottom: 60px;
+    right: 10px;
+}
+
+
+main form{
+	width:600px;
+	padding:16px;
+	border-radius:10px;
+	margin: 0 auto;
+	background-color: white;
+    position: relative;
+    top: 10px;
+}
+
+
+form input[type="text"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color: beige;
+	margin:8px 0;
+	display:inline-block;
+    position: relative;
+}
+
+form input[type="submit"]{
+    margin: 0 auto;
+	width: 100px;
+	padding:8px 16px;
+	margin-top:190px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:gainsboro;
+	background-color:#000;
+    
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+#Lnombre{
+    position: relative;
+    top: 5px;
+    left: 150px;
+}
+
+#nombre{
+    position: relative;
+    top: 5px;
+    left: 170px;
+}
+
+#Lapellido {
+    position: relative;
+    top: 50px;
+    right: 100px;
+
+}
+#apellido{
+    position: relative;
+    top: 50px;
+    right: 87px
+}
+
+#Lemail{
+    position: relative;
+    top: 100px;
+    right:350px; 
+}
+
+#email{
+    position: relative;
+    top: 60px;
+    left:235px ;
+
+}
+#Lfecha{
+    position: relative;
+    top: 110px;
+    left: 40px;
+}
+
+#fecha{
+    position: relative;
+    top: 140px;
+    right: 110px;
+
+}
+
+
+main h1{
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+}
+main div img{
+    background-color: white;
+    width: 300px;
+    padding: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+main div img:hover{
+    box-shadow: 0 0.1px 15px rgb(80, 80, 80)
+}
+
+#imagen1{
+    margin: 50px 0px 0px 100px;
+    float: left;
+}
+
+#imagen2{
+    margin: 50px 100px;
+    float: right;
+}
+
+#imagen3{
+    margin: 50px;
+    position: relative;
+    left: 150px;
+}
+
+#imagen4{
+    margin: 50px 0px 0px 100px;
+    float: left;
+    padding-bottom: 2rem;
+}
+
+#imagen5{
+    margin: 50px 100px;
+    position: relative;
+    left: 580px;
+    padding-bottom: 2rem;
+}
+
+
+
+#habitat{
+    padding: 0.3rem;
+    background-color: white;
+    width: 700px;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    right: 360px;
+    
+}
+
+#alimentacion{
+    padding: 0.3rem;
+    background-color: white;
+    width: 700px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+#reproduccion{
+    padding: 0.3rem;
+    background-color: white;
+    width: 700px;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    left: 360px;
+}
+
+#conservacion{
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 800px;
+    border-radius: 20px;
+    font-size: x-large;
+}
+
+
+footer {
+    background-color: lightgrey;
+    margin: 0 auto;
+    
+    bottom: 0 ;
+    height: 80px;
+    width: 100%;
+}
+footer img{
+    height: 80px;
+    float: right;
+}
+
+footer div{
+    font-size: small;
+    position: relative;
+
+}
+
